@@ -32,15 +32,7 @@ const Home = () => {
     </section>
 
     <Services />
-    <section className="trending__poducts">
-      <Container>
-        <Row>
-          <Col lg='12' className='text-center'>
-            <h2 className='section__title'>Trending Products</h2>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+    section.
   </Helmet>
 
 }
