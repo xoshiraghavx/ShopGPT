@@ -8,6 +8,7 @@ import { motion } from 'framer-motion'
 import '../styles/home.css'
 import Services from '../services/Services'
 import products from '../assets/data/products'
+import { useEffect, useState } from 'react'
 import counterImg from '../assets/images/counter-timer-img.png'
 const Home = () => {
 
@@ -66,7 +67,7 @@ const Home = () => {
             <h2 className='section__title'>Best Sales</h2>
           </Col>
 
-          <ProductsList data={bestSalesProducts} />
+          <ProductList data={bestSalesProducts} />
         </Row>
       </Container>
     </section>

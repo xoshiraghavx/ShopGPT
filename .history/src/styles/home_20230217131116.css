@@ -30,14 +30,5 @@
 .hero__content{
     padding-top: 45px;
 }
-.timer__count{
-    background: var(--primary-color);
-    height: 300px;
+.timer__count{\
 }
-.timer__count img{
-    width: 70% !important;
-    height: 70% !important;
-    object-fit: contain;
-    
-
-} 
