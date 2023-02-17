@@ -52,7 +52,7 @@ const Header = () => {
               <span className="badge">1</span>
 </span>
 
-              {/* <span><img src={userIcon} alt="" /></span> */}
+              <span><img src={userIcon} alt="" /></span>
               <span><motion.img whileTap={{scale: 1.2}} src={userIcon} alt="" /></span>
             </div>
              <div className="mobile__menu">
