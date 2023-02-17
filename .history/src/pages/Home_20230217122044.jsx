@@ -5,7 +5,7 @@ import heroImg from '../assets/images/hero-img.png'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import '../styles/home.css'
-import Services from '../services/Services'
+import Services from '../services/services'
 const Home = () => {
 
   const year = new Date().getFullYear()
@@ -26,17 +26,6 @@ const Home = () => {
             <div className="hero__img">
               <img src={heroImg} alt="" />
             </div>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-
-    <Services />
-    <section className="trending__poducts">
-      <Container>
-        <Row>
-          <Col lg='12' className='text-center'>
-            <h2 className='section__title'>Trending Products</h2>
           </Col>
         </Row>
       </Container>
