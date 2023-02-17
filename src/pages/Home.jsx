@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductsList from "../components/UI/ProductsList"
 import Helmet from '../components/Helmet/Helmet'
 import { Container, Row, Col } from 'reactstrap'
 import heroImg from '../assets/images/hero-img.png'
@@ -38,6 +39,7 @@ const Home = () => {
           <Col lg='12' className='text-center'>
             <h2 className='section__title'>Trending Products</h2>
           </Col>
+          <ProductsList/>
         </Row>
       </Container>
     </section>
