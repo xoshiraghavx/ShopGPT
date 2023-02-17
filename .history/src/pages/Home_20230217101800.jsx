@@ -18,7 +18,7 @@ const Home = () => {
               <h2>Make Your Interior More Minimalistic & MOrdern</h2>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum beatae tempore eaque quas explicabo reiciendis voluptate nemo modi officiis nesciunt?</p>
 
-              <motion.button whileTap={{scale: 1.2}} className="buy__btn"><Link to='shop'>SHOP NOW</Link></motion.button>
+              <button className="buy__btn"><Link to='shop'>SHOP NOW</Link></button>
             </div>
           </Col>
           <Col lg='6' md='6'>
