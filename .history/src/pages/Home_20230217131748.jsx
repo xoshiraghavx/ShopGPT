@@ -66,7 +66,7 @@ const Home = () => {
             <h2 className='section__title'>Best Sales</h2>
           </Col>
 
-          <ProductsList data={bestSalesProducts} />
+          <ProductList data={bestSalesProducts} />
         </Row>
       </Container>
     </section>
